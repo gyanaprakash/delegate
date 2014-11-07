@@ -14,12 +14,22 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    sampleprotocol *sample=[[sampleprotocol alloc]init];
+    sample.delegate = self;
+    [lable setText:@"gyana gyana gyana gyana"];
+    [sample startSampleProcess];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+-(void)processCompleted
+{
+    [lable setText:@"jitu jitu jitu"];
+}
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

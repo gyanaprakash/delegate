@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "sampleprotocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SampleProtocolDelegate>
 
-
+{
+    __weak IBOutlet UILabel *lable;
+    
+}
 @end
 

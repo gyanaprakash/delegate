@@ -15,7 +15,13 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.vc = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
+    self.navi = [[UINavigationController alloc]initWithRootViewController:self.vc];
+    self.window.rootViewController= _navi;
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
