@@ -15,6 +15,7 @@
 		BCB27E001A0CF6BE00CEA761 /* delegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB27DFF1A0CF6BE00CEA761 /* delegateTests.m */; };
 		BCB27E0A1A0CF81200CEA761 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB27E091A0CF81200CEA761 /* ViewController.xib */; };
 		BCB27E0D1A0CF86400CEA761 /* sampleprotocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB27E0C1A0CF86400CEA761 /* sampleprotocol.m */; };
+		BCB27E101A0D0BA900CEA761 /* VIEW.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB27E0F1A0D0BA900CEA761 /* VIEW.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		BCB27E091A0CF81200CEA761 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		BCB27E0B1A0CF86400CEA761 /* sampleprotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampleprotocol.h; sourceTree = "<group>"; };
 		BCB27E0C1A0CF86400CEA761 /* sampleprotocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sampleprotocol.m; sourceTree = "<group>"; };
+		BCB27E0E1A0D0BA900CEA761 /* VIEW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEW.h; sourceTree = "<group>"; };
+		BCB27E0F1A0D0BA900CEA761 /* VIEW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEW.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				BCB27E091A0CF81200CEA761 /* ViewController.xib */,
 				BCB27E0B1A0CF86400CEA761 /* sampleprotocol.h */,
 				BCB27E0C1A0CF86400CEA761 /* sampleprotocol.m */,
+				BCB27E0E1A0D0BA900CEA761 /* VIEW.h */,
+				BCB27E0F1A0D0BA900CEA761 /* VIEW.m */,
 				BCB27DF01A0CF6BE00CEA761 /* Images.xcassets */,
 				BCB27DF21A0CF6BE00CEA761 /* LaunchScreen.xib */,
 				BCB27DE31A0CF6BE00CEA761 /* Supporting Files */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB27E101A0D0BA900CEA761 /* VIEW.m in Sources */,
 				BCB27DEC1A0CF6BE00CEA761 /* ViewController.m in Sources */,
 				BCB27DE91A0CF6BE00CEA761 /* AppDelegate.m in Sources */,
 				BCB27DE61A0CF6BE00CEA761 /* main.m in Sources */,

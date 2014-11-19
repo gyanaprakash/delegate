@@ -13,6 +13,8 @@
 -(void)startSampleProcess
 {
     [NSTimer scheduledTimerWithTimeInterval:3.0 target:self.delegate
-                                   selector:@selector(processCompleted) userInfo:nil repeats:NO];
+                                   selector:@selector(processCompleted) userInfo:nil repeats:YES];
 }
+
+
 @end

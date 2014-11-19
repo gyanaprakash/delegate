@@ -21,13 +21,15 @@
     sample.delegate = self;
     [lable setText:@"gyana gyana gyana gyana"];
     [sample startSampleProcess];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 -(void)processCompleted
 {
     [lable setText:@"jitu jitu jitu"];
 }
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
